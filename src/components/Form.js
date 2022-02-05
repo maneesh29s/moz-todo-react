@@ -9,7 +9,7 @@ export default function Form(props){
         e.preventDefault();
         // alert('Hello Maneesh :>');
         props.addTask(name);
-        setName("");
+        setName("type here");
     }
 
     function handleChange(e) {
