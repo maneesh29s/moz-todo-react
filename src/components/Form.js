@@ -27,13 +27,14 @@ export default function Form(props){
         <input
           type="text"
           id="new-todo-input"
+          data-testid = "test-input"
           className="input input__lg"
           name="text"
           autoComplete="off"
           value={name}
           onChange={handleChange}
         />
-        <button type="submit" className="btn btn__primary btn__lg">
+        <button type="submit" data-testid = "test-button" className="btn btn__primary btn__lg">
           Add
         </button>
       </form>
